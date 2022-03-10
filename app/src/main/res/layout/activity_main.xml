@@ -21,6 +21,7 @@
         android:inputType="textPersonName"
 
         android:maxLines="1"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/player_one_label" />
 
@@ -53,6 +54,7 @@
         android:hint="@string/player_two"
         android:inputType="textPersonName"
         android:maxLines="1"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/player_two_label" />
 
